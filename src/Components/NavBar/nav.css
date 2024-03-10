@@ -1,0 +1,233 @@
+.nav-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav__container {
+    background: rgb(97, 85, 97);
+    width: 1920px;
+    height: 103px;
+}
+
+.logo__container {
+    margin-top: 18px;
+    transform: translateX(71px);
+
+    padding: 9px 12px 0 0;
+}
+
+.logo {
+    width: 350px;
+    height: 103px;
+}
+
+.main__logo {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.sub__logo{
+    transform: translateY(-37px);
+    margin-left: 12px;
+}
+
+.nav__list {
+    cursor: pointer;
+    margin-left: 170px;
+}
+
+.nav__list-items {
+    display: flex;
+    flex-direction: row;
+    gap: 320px;
+}
+
+.nav__list-item__cinema {
+    width: 191px;
+    height: 43px;
+
+    color: rgb(189, 182, 189);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+}
+
+.nav__list-item__list {
+    width: 186px;
+    height: 43px;
+
+    color: rgb(189, 182, 189);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+}
+
+.nav__list-item__info {
+    width: 200px;
+    height: 43px;
+
+    color: rgb(189, 182, 189);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+}
+
+.active {
+    color: #fff;
+}
+
+.logo.active {
+    background: rgb(118, 108, 118);
+}
+
+.dropdown__menu {
+    position: absolute;
+    margin-top: 20px;
+
+    background-color: rgba(255,255,255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+
+    border-radius: 30px;
+    font-size: 25px;
+    gap: 10px;
+
+    width: 170px;
+    height: 100px;
+
+    visibility: hidden;
+    opacity: 0;
+    font-family: Montserrat Alternates;
+
+    transition: opacity 0.5s, visibility 0s, linear 0.5s;
+}
+
+.nav__list:hover .dropdown__menu {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 1s;
+
+}
+
+.nav__list-item:hover .dropdown__menu li {
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown__menu li {
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.dropdown__menu a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1e1f20;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .nav__container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo__container {
+      margin-top: 10px;
+      transform: none; 
+      padding: 0;
+      background-image: url('./../../img/LogoImg/logoadaptiv.png');
+      background-repeat: no-repeat;
+      margin-left: 30px;
+    }
+
+    .nav__list {
+      margin: 20px 0; 
+    }
+
+    .nav__list-items {
+      flex-direction: row;
+      gap: 42px;
+      margin-left: 8px;
+    }
+
+    .nav__list-item__cinema,
+    .nav__list-item__list,
+    .nav__list-item__info {
+      width: 100%; 
+      text-align: center; 
+      font-size: 14px; 
+      line-height: 17px; 
+    }
+
+
+    .dropdown__menu {
+      position: absolute; 
+      margin: 10px 0; 
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 10px; 
+      font-size: 16px; 
+      width: 130px;
+      height: 70px;  
+      visibility: visible;
+      opacity: 1;
+      transition: none; 
+    }
+
+    .sub-nav a {
+        margin-top: -15px;
+    }
+
+    .dropdow__nmenu li {
+      padding: 10px; 
+    }
+
+    .logo__container img {
+        opacity: 0;
+    }
+
+    .logo.active {
+        width: 120px;
+        height: 89px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,996 @@
+.info {
+    margin-top: 150px;
+}
+
+.info__title {
+    width: 453px;
+    height: 49px;
+
+    margin-left: 730px;
+    margin-top: -61px;
+
+    color: rgb(22, 19, 29);
+    font-family: Moskino;
+    font-style: italic;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.info__img {
+    margin-top: 150px;
+    margin-left: 145px;
+}
+
+.film__img {
+    width: 336px;
+    height: 336px;
+}
+
+.limitations {
+    margin-top: 82px;
+    margin-left: 170px;
+}
+
+.limitations__container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.time-age {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.age {
+    position: absolute;
+
+    width: 73px;
+    height: 45px;
+    left: 40px;
+    top: -5px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+.timestamp {
+    position: absolute;
+    width: 123px;
+    height: 45px;
+    left: 200px;
+    top: -5px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+.film__desc {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.two__D {
+    width: 92px;
+    height: 53px;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(191, 191, 191);
+    border-radius: 30px;
+    
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.russian__subs {
+    width: 374px;
+    height: 53px;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(191, 191, 191);
+    border-radius: 30px;
+
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.french__subs {
+    width: 374px;
+    height: 53px;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(191, 191, 191);
+    border-radius: 30px;
+
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.film__date{
+    position: relative;
+
+    width: 1920px;
+    height: 75px;
+
+    margin-top: 23px;
+
+    background: rgba(191, 182, 202, 0.48);
+}
+
+.film__date span {
+    position: absolute;
+    top: 15px;
+
+   margin-left: 170px;
+
+   color: rgb(29, 30, 45);
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.clod__block {
+    margin-top: 26px;
+    margin-left: 170px;
+}
+
+.clod__card {
+    width: 209px;
+    height: 125px;
+
+    border-radius: 30px;
+    background: rgba(214, 207, 191, 0.822);
+}
+
+.clod__card-container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 16px;
+    gap: 45px;
+}
+
+.clod__time {
+    width: 158px;
+    height: 30px;
+
+    color: rgb(29, 30, 45);
+    font-family: Montserrat Alternates;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.clod__price {
+    position: absolute;
+
+    width: 209px;
+    height: 50px;
+
+    color: rgb(29, 30, 45);
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    background: rgb(133, 122, 122);
+   border-radius: 10px;   
+
+    top: 60px;
+}
+
+.clod__price span {
+    position: absolute;
+    width: 114px;
+    height: 39px;
+    right: 47px;
+    top: 10px;
+}
+
+.clod__sub-container {
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
+}
+
+.ruble {
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.film__card {
+    margin-top: 50px;
+    margin-left: 145px;
+}
+
+.film__card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 84px;
+}
+
+.film__card-desc {
+   margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.film__card-title {
+    width: 735px;
+    height: 74px;
+
+    color: rgb(29, 30, 45);
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.film__card-text {
+    width: 930px;
+    height: 150px;
+
+    color: rgb(29, 30, 45);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.btn {
+    width: 348px;
+    height: 80px;
+
+    border-radius: 30px;
+    background: rgb(133, 122, 122);
+
+    display: inline-flex;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: 0.4s ease-in;
+}
+
+.btn:hover {
+    background-color: rgb(92, 82, 82);
+}
+
+.film__btn {
+    width: 280px;
+    height: 43px;
+
+    color: rgb(255, 243, 244);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.clod__lim {
+    margin-left: 20px;
+}
+
+.two__D:hover,
+.russian__subs:hover,
+.french__subs:hover {
+    background-color: rgb(194, 186, 186);
+    border: 1px  inherit;
+    transition: all 0.5s ease-in-out;
+}
+
+.two__D:not(:hover),
+.russian__subs:not(:hover),
+.french__subs:not(:hover) {
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:active {
+    transform: translateY(5px);
+}
+
+.cold__date {
+    width: 1920px;
+
+    margin-left: -150px;
+}
+
+.info__place {
+    margin-left: 50px;
+}
+
+.info__place-container{
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+}
+
+.place__text p {
+
+    width: 686px;
+    height: 74px;
+
+
+
+    margin-top: 160px;
+    margin-left: 150px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(0, 0, 0);
+    font-family: Moskino;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+
+.place__text span {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.place__address {
+    width: 308px;
+    height: 45px;
+
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-decoration-line: underline;
+}
+
+.nearest {
+    width: 686px;
+    height: 74px;
+
+    color: rgb(0, 0, 0);
+    font-family: Moskino;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.nearest__cinema {
+    width: 686px;
+    height: 74px;
+
+    color: rgb(0, 0, 0);
+    font-family: Moskino;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.place__img {
+    margin-top: 50px;
+}
+
+.film__card-img-main {
+  margin-top: 150px;
+}
+
+.film__card-desc-main {
+  margin-top: 200px;
+}
+
+.film__card-title-main h1 {
+  margin-top: -161px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+    color: rgb(22, 19, 29);
+  font-family: Moskino;
+  font-style: italic;
+  font-size: 66px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0%;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.film__card-text-main p {
+  margin-top: -60px;
+}
+
+.film__main-title h1 {
+  margin-top: -100px;
+
+  color: rgb(22, 19, 29);
+  font-family: Montserrat Alternates;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: justify;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .info {
+    margin-top: 100px;
+  }
+
+  .info__title {
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+
+  .info__img {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .film__img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .limitations {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .limitations__container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .time-age {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .age {
+    width: 50px;
+    height: 30px;
+    left: 20px;
+    top: -5px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .timestamp {
+    width: 80px;
+    height: 30px;
+    left: 120px;
+    top: -5px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .film__desc {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -30px;
+    padding-left: 14px;
+  }
+
+  .two__D {
+    width: 54px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .russian__subs {
+    width: 168px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .french__subs {
+    width: 167px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .film__date {
+    margin-top: -210px;
+
+    width: 590px;
+    height: 41px;
+  }
+
+  .film__date span {
+    /* position: absolute; */
+    left: -20px;
+
+    width: 100px;
+    height: 20px;
+
+    font-size: 16px;
+
+    margin-top: -15px;
+  }
+  .mone__btn {
+    transform: translateY(-230px);
+    margin-left: 200px;
+    transition: transform 0s;
+  }
+  .mone__btn:active {
+   transform: translateY(-230px);
+  }
+
+  .clod__block {
+    margin-top: 50px;
+    margin-left: 23px;
+    width: 98px;
+  }
+
+
+  .clod__card {
+    width: 140px;
+    height: 80px;
+  }
+
+  .clod__card-container {
+    gap: 25px;
+  }
+
+  .clod__time {
+    width: 106px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 29px;
+  }
+
+  .clod__price {
+    width: 98px;
+    height: 58px;
+    font-size: 15px;
+    line-height: 21px;
+    top: 40px;
+  }
+
+  .clod__price span {
+    width: 70px;
+    height: 25px;
+    right: 35px;
+    top: 5px;
+    font-size: 15px;
+  }
+
+
+  .ruble {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  .film__card {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .film__card-container {
+    position: relative;
+
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .film__card-desc {
+    position: relative;
+    gap: 15px;
+  }
+
+  .film__card-title-main h1 {
+    position: absolute;
+    top: -400px;
+    left: 150px;
+    width: 150px;
+    height: 32px;
+    font-size: 32px;
+  }
+
+  .film__card-text {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .btn {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .film__btn {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .clod__lim {
+    margin-left: 10px;
+  }
+
+  .info__place {
+    margin-left: 10px;
+  }
+
+  .info__place-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .place__text p {
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .place__text span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .place__address {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .nearest {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .nearest__cinema {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .place__img {
+    margin-top: 30px;
+  }
+
+  .info__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+    font-size: 32px;
+
+    width: 120px;
+    height: 32px;
+    
+  }
+
+  .film__card-img-main img {
+    width: 233px;
+    height: 248px;
+
+    
+  }
+
+  .film__main-title h1 {
+    width: 240px;
+    height: 31px;
+
+    margin-left: 250px;
+
+    margin-top: -530px;
+
+    font-size: 24px;
+  }
+
+  .film__card-text-main p {
+    width: 170px;
+    height: 99px;
+
+    margin-left: 250px;
+
+    margin-top: -450px;
+    letter-spacing: 0%;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+  }
+
+  .sub__film-main__btn {
+    position: absolute;
+    top: -150px;
+
+    width: 153px;
+    height: 35px;
+
+    margin-left: 240px;
+  }
+
+  .time-age {
+
+    margin-top: -300px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .time-age img {
+    width: 17px;
+    height: 17px;
+  }
+
+  .age {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .timestamp {
+    margin-left: -12px;
+    font-size: 12px;
+  }
+
+  .clod__card {
+    border-radius: 30% 30% 30% 30%;
+    height: 75px;
+    margin-top: 40px;
+  }
+
+  .sub__mone{
+    transform: translateX(120px);
+  }
+
+  .cinema__card{
+    transform: translateX(120px);
+  }
+
+    .clod__card-mone {
+      margin-left: 12px;
+      width: 20px;
+      height: 58px;
+    }
+    
+    .film__card-img-mone img {
+      width: 151px;
+      height: 151px;
+    }
+
+    .film__card-title-mone h1 {
+    width: 261px;
+    height: 31px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+    margin-top: -175px;
+    margin-left: 170px;
+    }
+
+  .text-mone p {
+    width: 273px;
+    height: 99px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+    margin-top: -200px;
+    margin-left: 170px;
+  }
+
+  .ironia img {
+    width: 151px;
+    height: 151px;
+  }
+
+  .ironia-title h1 {
+    width: 218px;
+    height: 29px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+    margin-left: 160px;
+    margin-top: -190px;
+  }
+
+  .ironia-text p {
+    width: 273px;
+    height: 99px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+    margin-left: 160px;
+    margin-top: -230px;
+  }
+
+  .ironia__btn {
+    position: absolute;
+
+    top: -450px;
+    left: 200px;
+
+  }
+
+  .ironia__img{
+    width: 151px;
+    height: 151px;
+  }
+
+  .place__img img {
+    width: 288.25px;
+    height: 290px;
+
+    margin-top: 100px;
+    margin-left: 91px;
+  }
+
+  .nearest {
+    width: 239px;
+    height: 24px;
+
+      color: rgb(0, 0, 0);
+    font-family: Moskino;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: justify;
+  }
+
+  .nearest__cinema {
+    position: absolute;
+    margin-left: 120px;
+    width: 239px;
+    height: 24px;
+
+    color: rgb(0, 0, 0);
+    font-family: Moskino;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: justify;
+    
+  }
+
+  .place__text span {
+    margin-top: 15px;
+
+    width: 284px;
+    height: 36px;
+
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: justify;
+  }
+
+  .text-ironia{
+    width: 273px;
+    height: 99px;
+
+    color: rgb(22, 19, 29);
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+    margin-left: 170px;
+    transform: translateY(-230px);
+  }
+
+}
+
+
+

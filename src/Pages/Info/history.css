@@ -1,0 +1,127 @@
+.history {
+    margin-top: 116px;
+}
+
+.history__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history__title {
+
+    display: flex;
+    justify-content: center;
+
+    width: 545px;
+    height: 49px;
+
+
+    color: rgb(22, 19, 29);
+    font-family: Moskino;
+    font-style: italic;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.history__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+
+.history__text {
+    margin-top: 87px;
+
+    width: 1200px;
+    height: 234px;
+
+    color: rgb(46, 44, 44);
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.history__img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub__text {
+    transform: translateY(-50px);
+}
+
+.mem {
+    position: absolute;
+    left: 600px;
+    top: 35px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .history {
+        background: linear-gradient(45deg, rgb(255, 243, 244), rgba(208, 194, 222, 0.46), rgba(49, 41, 71, 0.4));
+        padding: 0;
+        margin: 0;
+    }
+
+    .history__text {
+        width: 100%;
+        height: auto;
+        padding: 0 20px; 
+        text-align: justify; 
+    }
+
+    .h1history {
+        font-size: 24px;
+        padding-top: 25px;
+        text-align: center; 
+    }
+
+    .history__container {
+        max-width: 100%; 
+    }
+
+    .history__img {
+        width: 100%; 
+        margin-left: 0; 
+        justify-content: center; 
+    }
+
+    .img_history1,
+    .img_history2,
+    .img_history3 {
+        width: 80%; 
+        margin-left: 0;
+    }
+
+    .mem {
+        position: relative; 
+        top: auto;
+        left: auto;
+        margin-top: 15px; 
+    }
+
+    .parhist1,
+    .parhist2,
+    .parhist3 {
+        padding-left: 20px; 
+        padding-right: 20px; 
+        font-size: 16px; 
+        text-align: justify; 
+    }
+
+    .mem {
+        display: none;
+    } 
+}
+
